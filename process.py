@@ -112,7 +112,7 @@ if input() != 'y':
 
 print("What is your email address?")
 email = input()
-#print("What is your password?")
+print("What is your password?")
 password = input()
 
 server = smtplib.SMTP('smtp.gmail.com:587')
